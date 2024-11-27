@@ -1,0 +1,290 @@
+
+
+
+nav ul li {
+    margin-right: 15px; /* Adjust spacing between menu items */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+marquee {
+    background-color: #eee;
+    padding: 10px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro h2, .intro h3 {
+    color: #333;
+}
+
+.intro ul {
+    padding-left: 20px;
+}
+
+.intro ul li {
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .intro {
+        padding: 10px;
+    }
+
+    .cta-button {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1em;
+    }
+
+    nav ul li {
+        font-size: 0.9em;
+    }
+
+    .intro h2 {
+        font-size: 1.2em;
+    }
+
+    .intro h3 {
+        font-size: 1em;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background-image: url(books.jpeg);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .contact-info {
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 10px;
+    background-image: url(photo.jpeg);
+    background-size: cover;
+    color: rgb(1, 1, 1);
+}
+
+.intro h2 {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.intro p {
+    margin: 15px 0;
+}
+
+.intro ul {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.intro ul li {
+    margin-bottom: 10px;
+}
+
+.intro .cta-button {
+    color: #fff;
+    background: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.intro .cta-button:hover {
+    background: #45a049;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    color: black;
+    background-color: #29a7d1;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;}
+    
+    .logo {
+        max-width: 150px;
+        height: auto;
+        display: inline-block; /* Ensure it behaves like text */
+        margin-right: 1em; /* Space between image and heading */
+    }
+    marquee {
+        background: #284028; /* A solid background color for the marquee */
+        color: #fff;
+        padding: 10px;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    h2{
+
+        padding: 10px;
+        width: auto;
+        text-align: center;
+        display: block;
+    }
+
+
+
